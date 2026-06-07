@@ -434,6 +434,26 @@ ul { margin: 0; padding: 0; list-style: none; }
 .value-card h3 { font-size: 1.02rem; margin-bottom: 8px; }
 .value-card p { font-size: 0.9rem; margin: 0; }
 
+/* ===== Recensioni ===== */
+.recensioni { background: var(--white); padding-top: 0; }
+.review-card {
+  background: linear-gradient(120deg, var(--navy) 0%, var(--navy-light) 100%);
+  border-radius: var(--radius);
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+  box-shadow: var(--shadow);
+}
+.review-text { max-width: 620px; }
+.review-text .eyebrow { color: var(--teal-light); }
+.review-text h2, .review-text p { color: var(--white); }
+.review-text p { color: rgba(255,255,255,0.8); margin-bottom: 0; }
+.review-btn { flex: none; background: var(--teal); }
+.review-btn:hover { background: var(--teal-light); }
+
 /* ===== Contact ===== */
 .contact-list { margin: 28px 0; display: grid; gap: 22px; }
 .contact-list li { display: flex; gap: 16px; align-items: flex-start; }
